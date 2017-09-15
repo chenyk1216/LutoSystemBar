@@ -7,3 +7,7 @@
 /build
 /captures
 .externalNativeBuild
+/gradle/wrapper/
+/.idea/
+/lutobarlib/build/
+/sample/build/
