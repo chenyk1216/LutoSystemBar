@@ -1,10 +1,10 @@
 # LutoSystemBar
 
-### 简单说明
+## 简单说明
 
 > 为Android 4.4及以上提供状态栏和系统栏的半透明效果，也就是大部分人所说的沉浸式效果，同时支持图片可浸入状态栏和导航栏，通过链试调用的方式进行设置
 
-### 效果图
+## 效果图
 
 * Android 4.4 效果
 ![Android 4.4 效果.jpg](http://upload-images.jianshu.io/upload_images/2369466-623c2d8c9fcf3b5f.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -15,22 +15,22 @@
 * Android 6.0 效果
 ![Android 6.0.jpg](http://upload-images.jianshu.io/upload_images/2369466-1995bbeb26dc4813.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-### github地址
+## github地址
 
 [https://github.com/chenykKits/LutoSystemBar](https://github.com/chenykKits/LutoSystemBar)
 
-### apk下载
+## apk下载
 
 [V1.0.0](https://raw.githubusercontent.com/chenykKits/LutoSystemBar/master/apk/LutoSystemBar_Normal_V1.0.0.apk)
 
-### 更新日志
+## 更新日志
 
-##### V1.0.0 
+#### V1.0.0 
 * 为不同安卓版本适配沉浸式效果，仅对Android 4.4及以上有效
 * 修改状态栏、导航栏颜色和透明度
 * 图片可浸入状态栏和导航栏
 
-### 用法
+## 用法
 
 1. 下载配置
 * Android studio用户，可在项目中的 build.gradle 文件中添加如下引用
@@ -57,7 +57,7 @@ LutoSystemBar.Builder(activity)
                 .translucentForImageView(titleView)//设置图片进入状态栏时，要下移的视图
                 .build();//调用此方法参数配置才会生效
 ```
-### 关键代码说明
+## 关键代码说明
 
 * 针对不同Android版本将状态栏和导航栏透明
 ```
